@@ -1,57 +1,97 @@
-<!DOCTYPE html></html>>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Meu Primeiro Projeto</title>
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<header id='cabecalho'>
-    <h1 id='titulo'>Meu primeiro projeto</h1>
-    
-</header>
-<img src='foto-vanessa-santos.jpeg' alt='foto-vanessa-santos' id='minha_foto'/>
-<ul id='licoes_aprendidas'>
-    <li>1</li> 
-    <li>2</li> 
-    <li>3</li> 
-    <li>4</li> 
-    <li>5</li> 
-    <li>6</li> 
-    <li>7</li> 
-    <li>8</li> 
-    <li>9</li> 
-    <li>10</li> 
-</ul> 
-<ul id='licoes_a_aprender'>
-    <li>1</li> 
-    <li>2</li> 
-    <li>3</li> 
-    <li>4</li> 
-    <li>5</li> 
-    <li>6</li> 
-    <li>7</li> 
-    <li>8</li> 
-    <li>9</li> 
-    <li>10</li> 
-</ul> 
-<article><section><h2>titulo</h2><p>Cypress is currently automating this browser.
-    Opening new tabs may interfere with tests and cause failures.
-    
-    Please note:
-    
-    Any opened tabs will be closed when Cypress is stopped.
-    Tests currently running may fail while another tab has focus.
-    Cookies and session from other sites will be cleared.
-    Read more about browser management</p></section></article>
-    <aside><p>Any opened tabs will be closed when Cypress is stopped.
+  <header id='cabecalho'>
+    <h1 id='titulo'>Meu Primeiro Projeto</h1>
+    <nav>
+        <a href='#'>Home</a>
+        <a href=''>quem sou?</a>
+        <a href=''>Habilidades</a>
+        <a href=''>Contato</a>
+    </nav>
+  </header>
+  <main>
+      <section>
+          <img src='foto-vanessa-santos.jpeg' alt='foto-vanessa-santos' id='minha_foto' />
+      </section>
+      <section>
+  <ol id='licoes_aprendidas'>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+    <li>Andamento..</li>
+  </ol>
+  <ul id='licoes_a_aprender'>
+    <li>Andamento.. 1</li>
+    <li>Andamento.. 2</li>
+    <li>Andamento.. 3</li>
+    <li>Andamento.. 4</li>
+    <li>Andamento.. 5</li>
+    <li>Andamento.. 6</li>
+    <li>Andamento.. 7</li>
+    <li>Andamento.. 8</li>
+    <li>Andamento.. 9</li>
+    <li>Andamento.. 10</li>
+  </ul>
+</section>
+  <article>
+    <section>
+      <h2>Um artigo  sobre a minha jornada na Trybe até aqui</h2>
+      <p>Cypress is currently automating this browser.
+        Opening new tabs may interfere with tests and cause failures.
+
+        Please note:
+
         Any opened tabs will be closed when Cypress is stopped.
         Tests currently running may fail while another tab has focus.
         Cookies and session from other sites will be cleared.
-        Read more about browser management</p></aside>
-<footer id='rodape'><nav><a href="#" target="_blank">All about Knitting 
-                (opens in new window)</a></nav></footer>
+        Read more about browser management</p>
+    </section>
+  </article>
+  <aside>
+    <h3>Meu Maiores Desafios</h3>
+    <p>Cypress is currently automating this browser.
+      Opening new tabs may interfere with tests and cause failures.
+
+      Please note:
+
+      Any opened tabs will be closed when Cypress is stopped.
+      Tests currently running may fail while another tab has focus.
+      Cookies and session from other sites will be cleared.
+      Read more about browser management</p>
+    <p>Any opened tabs will be closed when Cypress is stopped.
+      Any opened tabs will be closed when Cypress is stopped.
+      Tests currently running may fail while another tab has focus.
+      Cookies and session from other sites will be cleared.
+      Read more about browser management</p>
+  </aside>
+</main>
+  <footer id='rodape'>
+    <nav><a href='#' target="_blank">Link Externo(Open in a new window)</a></nav>
+    <!-- O site CodeSniffer esta dando o eguinte aviso: Warning: Check that this link's link text contains information indicating that the link will open in a new window. --> 
+    <!-- Apesar de escrever 'link externo', ele não aceitou -->
+    <!-- Pesquisei o warning no google e tive um retorno da seguinte págica logo de inicio http://www.w3.org/TR/WCAG20-TECHS/G201.html -->
+    <!-- Dentro dessa página, eu vi que tinha um codigo :
+Example Code:
+
+
+              <a href="knitting.html" target="_blank">All about Knitting 
+                (opens in new window)</a>-->
+    <!-- Utilizei apenas o conteudo de texto no Codesniffer e vi ue ele aceitou --> 
+    <!-- estudei um pouco mais, fiz uma adatação, e ele aceitou. da forma que está agora, acredito que não seja necessario essa estrutura, mas pra me adeuar mais ao site, deixei assim -->
+  </footer>
 </body>
 </html>
