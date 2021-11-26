@@ -1,44 +1,48 @@
-*{
-    margin:0;
-}
-body {
+* {
+    margin: 0;
+  }
+    
+  body {
     background-color: rgb(253, 251, 251);
     width: 1366px;
   }
+
   #cabecalho {
     width: 100%;
     top: 0;
     position: fixed;
     padding: 25px;
-    color: #ffffff;
+    color: white;
     background: #52c7ff;
     box-shadow: 0px 0px 20px #a3a3a3;
 }
- 
-#titulo{
+
+  #titulo {
     font-size: 51px;
     font-family:  system-ui,sans-serif;
     margin: 0px 40px;
-    color: #ffffff;
+    color: white;
     vertical-align: middle;
     display: inline-block;
 }
-.nav-menu{
+
+  .nav-menu {
     display: inline-block;
     vertical-align: middle;
     right: 86px;
     position: absolute;
 }
-.nav-menu a, #rodape a{
+
+  .nav-menu a, #rodape a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-weight: 700;
     margin: 10px;
     font-size: 1.5em;
     line-height: 59px;
 }
 
-.quem-sou{
+  .quem-sou {
     padding: 1%;
     float: left;
     margin-top: 145px;
@@ -47,7 +51,8 @@ body {
     width: 27%;
     margin-right: 34px;
 }
-.quem-sou img{
+
+  .quem-sou img {
     margin: 6px 22px;
     width: 100%;
     padding: 1%;
@@ -57,28 +62,32 @@ body {
     border: 1px solid #b1b1b13b;
     box-shadow: 9px 9px 9px #2e2e2e26;
 }
-.lado-direito{
+
+  .lado-direito {
     float: right;
-    /* height: 100px;*/
+    /* height: 100px; */
     width: 25.3%;
     margin: 20px 10px 20px 5px;
     line-height: 1.5;
 }
-.lado-esquerdo{
-    float:left;
+
+.lado-esquerdo {
+    float: left;
     width: 70%;
-   /* height: 100px;*/
+    /* height: 100px; */
     line-height: 1.5;
     margin: 20px 5px 20px 10px;
 }
-.listas, .tabelas, .lado-esquerdo, .lado-direito{
-    background: #0000ff00;
+
+.listas, .tabelas, .lado-esquerdo, .lado-direito {
+    background: #00f0;
     border: 1px solid #f9f9f9;
     padding: 1.2% 0;
     box-shadow: 0px 0px 8px #d3d3d3ba;
     text-align: center;
 }
-#licoes_aprendidas, #licoes_a_aprender{
+
+#licoes_aprendidas, #licoes_a_aprender {
     display: inline-block;
     width: 200px;
     margin: 27px;
@@ -88,18 +97,7 @@ body {
     margin-inline-end: 0px;
     padding-inline-start: 20px;
 }
-footer#rodape {
-    width: 100%;
-    background: #52c7ff;
-    float: left;
-    box-shadow: 0px 0px 20px #777777;
-    bottom: 0;
-    color: white;
-    font-family: sans-serif;
-    font-size: 16px;
-    padding: 0px 0;
-    text-align: center;
-}
+
 .quem-sou a {
     margin: 6px 22px;
     float: left;
@@ -112,6 +110,7 @@ footer#rodape {
     text-align: center;
     font-size: 2em;
 }
+
 table, tr, td, th, .listas, .listas li {
     border: 1px solid #c3c3c3;
     margin: 2px;
@@ -120,12 +119,12 @@ table, tr, td, th, .listas, .listas li {
 section.listas {
     width: 48%;
     /* height: 100px; */
-    line-height: 1.5;
-    margin: 145px 5px 20px 10px;
+    /* line-height: 1.5; 
+    margin: 145px 5px 20px 10px;*/
     border: 1px solid #85000000;
     display: block;
-    line-height: 1.7;
-    box-shadow: 0px 0px 8px #ffffff00;
+    line-height: 1.7; 
+    box-shadow: 0px 0px 8px #fff0;
     float: left;
     vertical-align: middle;
     margin: 167px 0px 0px 0px;
@@ -138,5 +137,18 @@ section.tabelas {
     margin: 171px 31px 0px 10px;
     line-height: 1.7;
     width: auto;
-    box-shadow: 0px 0px 8px #ffffff00;
+    box-shadow: 0px 0px 8px #fff0;
+}
+
+footer#rodape {
+  width: 100%;
+  background: #52c7ff;
+  float: left;
+  box-shadow: 0px 0px 20px #777;
+  bottom: 0;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 0px 0;
+  text-align: center;
 }
