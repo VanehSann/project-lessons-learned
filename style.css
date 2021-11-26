@@ -9,15 +9,16 @@ body {
     top: 0;
     position: fixed;
     padding: 25px;
-    color: #373543;
-    background: #fe828c;
+    color: #ffffff;
+    background: #52c7ff;
     box-shadow: 0px 0px 20px #a3a3a3;
 }
  
 #titulo{
-    font-size: 29px;
+    font-size: 51px;
     font-family:  system-ui,sans-serif;
-    color: #422c38;
+    margin: 0px 40px;
+    color: #ffffff;
     vertical-align: middle;
     display: inline-block;
 }
@@ -27,31 +28,76 @@ body {
     right: 86px;
     position: absolute;
 }
-.nav-menu a {
+.nav-menu a, #rodape a{
     text-decoration: none;
-    color: #422c38;
+    color: #ffffff;
     font-weight: 700;
     margin: 10px;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 59px;
 }
 
 .quem-sou{
     padding: 1%;
+    margin-top: 117px;
     background: white;
+    display: inline-block;
+    width: 30%;
 }
 .quem-sou img{
-    margin: 94px 22px;
-    width: 396px;
+    margin: 6px 22px;
+    width: 274px;
     padding: 1%;
-    border-radius: 18%;
-    /* border: 1px solid #b1b1b1; */
-    /* box-shadow: 9px 9px 9px #2e2e2e70;*/
+    float: left;
+    display: inline-block;
+    border-radius: 1%;
+    border: 1px solid #b1b1b13b;
+    box-shadow: 9px 9px 9px #2e2e2e26;
 }
 .lado-direito{
     float: right;
-    width: 50%;
+    /* height: 100px;*/
+    width: 25.3%;
+    margin: 20px 20px 20px 10px;
+    line-height: 1.5;
 }
 .lado-esquerdo{
     float:left;
-    width: 50%;
+    width: 70%;
+   /* height: 100px;*/
+    line-height: 1.5;
+    margin: 20px 10px 20px 20px;
+}
+.listas, .tabelas, .lado-esquerdo, .lado-direito{
+    background: #0000ff00;
+    border: 1px solid #040000;
+    padding: 1.2% 0;
+    text-align: center;
+}
+#licoes_aprendidas, #licoes_a_aprender{
+    display: inline-block;
+}
+footer#rodape {
+    width: 100%;
+    background: #52c7ff;
+    float: left;
+    box-shadow: 0px 0px 20px #777777;
+    bottom: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 0px 0;
+    text-align: center;
+}
+.quem-sou a {
+    margin: 6px
+ 22px;
+    float: left;
+    width: 274px;
+    position: relative;
+    padding: 1%;
+    text-decoration: none;
+    color: #53c6fa;
+    display: inline-block;
+    text-align: center;
 }
