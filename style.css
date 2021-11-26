@@ -13,7 +13,7 @@ body {
   position: fixed;
   padding: 25px;
   color: white;
-  background: #52c7ff;
+  background: rgb(82, 196, 255, 1);
   box-shadow: 0px 0px 20px #a3a3a3;
 }
 
@@ -60,7 +60,7 @@ body {
   display: inline-block;
   border-radius: 1%;
   border: 1px solid #b1b1b13b;
-  box-shadow: 9px 9px 9px #2e2e2e26;
+  box-shadow: 9px 9px 9px rgba(46, 46, 46, 0.149);
 }
 
 .lado-direito {
@@ -81,9 +81,9 @@ body {
 
 .listas, .tabelas, .lado-esquerdo, .lado-direito {
   background: #00f0;
-  border: 1px solid #f9f9f9;
+  border: 1px solid rgb(249, 249, 249);
   padding: 1.2% 0;
-  box-shadow: 0px 0px 8px #d3d3d3ba;
+  box-shadow: 0px 0px 8px rgba(211, 211, 211, 0.729);
   text-align: center;
 }
 
@@ -105,14 +105,14 @@ body {
   position: relative;
   padding: 1%;
   text-decoration: none;
-  color: #53c6fa;
+  color: rgb(82, 197, 250);
   display: inline-block;
   text-align: center;
   font-size: 2em;
 }
 
 table, tr, td, th, .listas, .listas li {
-  border: 1px solid #c3c3c3;
+  border: 1px solid rgb(195, 195, 195);
   margin: 2px;
 }
 
@@ -121,10 +121,10 @@ table, tr, td, th, .listas, .listas li {
   /* height: 100px; */
   /* line-height: 1.5; */
   /* margin: 145px 5px 20px 10px; */
-  border: 1px solid #85000000;
+  border: 1px solid rgba(133, 0, 0, 0);
   display: block;
   line-height: 1.7;
-  box-shadow: 0px 0px 8px #fff0;
+  box-shadow: 0px 0px 8px transparent;
   float: left;
   vertical-align: middle;
   margin: 167px 0px 0px;
@@ -133,18 +133,18 @@ table, tr, td, th, .listas, .listas li {
 .tabelas {
   float: right;
   display: block;
-  border: 1px solid #fdfbfb;
+  border: 1px solid rgb(253, 251, 251);
   margin: 171px 31px 0px 10px;
   line-height: 1.7;
   width: auto;
-  box-shadow: 0px 0px 8px #fff0;
+  box-shadow: 0px 0px 8px transparent;
 }
 
 #rodape {
   width: 100%;
-  background: #52c7ff;
+  background: rgb(82, 196, 255, 1);
   float: left;
-  box-shadow: 0px 0px 20px #777;
+  box-shadow: 0px 0px 20px rgb(119, 119, 119);
   bottom: 0;
   color: white;
   font-family: sans-serif;
