@@ -1,5 +1,5 @@
 <p align="center"><b>
- <a href="#---">English version README 🇺🇸 </a> •
+ <a href="#----">English version README 🇺🇸 </a> •
  <a href="#---project-lessons-learned-------">README em Português 🇧🇷</a>
   </b>
 </p>
