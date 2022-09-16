@@ -33,7 +33,7 @@
     <tr>
       <td><br>
         <p align="left">
-          Esse projeto é uma junção de tudo que aprendemos na trybe ao longo dos nossos 3 primeiros blocos ( Unit & Bash, Git & GitHub e internet, e introdução à HTML & CSS ). Um dos objetivos do projeto é que site deve estar com elementos posicionados e estilizados e conter semântica adequada para que a aplicação seja acessível e melhor ranqueada. inclusive utilizamos o site CodeSniffer para o testar a semântica da aplicação.</p>
+          Esse projeto é uma junção de tudo que aprendemos na trybe ao longo dos nossos 3 primeiros blocos ( Unit & Bash, Git & GitHub e internet, e introdução à HTML & CSS ). Um dos objetivos do projeto é que site deve estar com elementos posicionados e estilizados e conter semântica adequada para que a aplicação seja acessível e melhor ranqueada, inclusive utilizamos o site CodeSniffer para o testar a semântica da aplicação.</p>
       </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
 
 <blockquote>
    <h2>Trabalhando atualmente</h2>
-  <p> Apesar do status do projeto está como concluido, há alguns pontos que pretendo mehorar na aplicação, que são: </p>
+  <p> Apesar do status do projeto está como concluido, há alguns pontos que pretendo melhorar na aplicação, que são: </p>
    <table>
   <tr>
     <td>
