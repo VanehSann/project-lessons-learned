@@ -14,11 +14,10 @@
 <section>
   <table align="center">
 <tr><p align="center"><b> </td> 
-<td> <a href="#----about--">Sobre</a></td> 
+<td> <a href="#---sobre--">Sobre</a></td> 
 <td>  <a href="#tecnologias-utilizadas--hard-skills-">Tecnologias utilizadas</a></td> 
 <td>  <a href="#layout">Layout</a></td> 
 <td>  <a href="">Requisitos do projeto</a></td> 
-<td>  <a href="#instru%C3%A7%C3%B5es-para-rodar-o-projeto">Instruções</a></td> 
   </b>
   </p></tr>
   </table>
@@ -139,39 +138,10 @@ MOBILE
     </table>
       </blockquote>
       
-<br>
-<br>
-
-  <blockquote>
-   <h2>Instruções para rodar o projeto</h2>
-
-* No seu terminal
-
-1. Clone o repositório
-  * `git clone git@github.com:vanehsann/project-lessons-learned.git`.
-  * Para entrar na pasta do projeto que você acabou de clona, você usará o seguinte comando:
-    * `cd project-lessons-learned`
-
-2. Instale as dependências
-  * Use o seguinte comando para instalar:
-    * npm install
-
-3. Para testar o lint
-  * Use o seguinte comando:
-    * npm run lint:styles
-
-
-4. Para visualizar a aplicação
-  * Na pasta do projeto, clique com o segundo botão do mouse no:
-    * index.html
-  * Escolha a opção 'Open Preview'
-
-      </blockquote>
-      
 <br/>
 <br/>
 
-<blockquote> <h2 align="left">Requisitos que foram exigidos no projeto da Trybe </h2>
+<blockquote> <h2 align="left">Requisitos</h2>
 
 ### 1. Adicionar uma cor de fundo específica para a página
 
